@@ -89,6 +89,18 @@ A comparação entre os valores reais e previstos permite observar a capacidade 
 
 Também foi explorada a previsão de múltiplos passos futuros, demonstrando como o modelo projeta os padrões temporais aprendidos para observações posteriores.
 
+### 4.1. Comparação entre valores reais e previstos
+
+O gráfico apresenta a comparação entre os valores reais do conjunto de teste e as previsões geradas pelo modelo Transformer.
+
+![Comparação entre valores reais e previstos](images/previsoes_teste.png)
+
+### 4.2. Previsão de valores futuros
+
+Após a avaliação, foi realizada uma previsão autorregressiva de múltiplos passos, utilizando os valores estimados pelo modelo para gerar as previsões seguintes.
+
+![Previsão futura com Transformer](images/forecast_futuro.png)
+
 ## 5. Aplicações potenciais no contexto industrial
 
 A metodologia estudada pode ser explorada em diferentes problemas de engenharia e operações industriais, como:
